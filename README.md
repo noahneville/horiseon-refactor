@@ -8,4 +8,4 @@ In my CSS file, I combined the CSS rules of consolidated classes to improve effi
 
 Here's a preview of what the site should look like: 
 
-<img src= "./assets/images/images/01-html-css-git-homework-demo.png" />
+<img src= "./assets/images/01-html-css-git-homework-demo.png" />
