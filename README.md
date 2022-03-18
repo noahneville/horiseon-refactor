@@ -10,7 +10,9 @@ Here's a preview of what the site should look like:
 
 <img src= "./assets/images/01-html-css-git-homework-demo.png" />
 
-<a href="https://noahneville.github.io/horiseon-refactor/#online-reputation-management"> Here's a link to the live page</a>
+
+
+<a href="https://noahneville.github.io/horiseon-refactor/#online-reputation-management"> Here's a link to the live page.</a>
 
 Thanks to the following people with their help on this project:
 
