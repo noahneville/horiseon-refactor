@@ -8,7 +8,7 @@ In my CSS file, I combined the CSS rules of consolidated classes to improve effi
 
 Here's a preview of what the site should look like: 
 
-<img src= "./assets/images/screenshot.png" />
+<img src= "./assets/images/screenshot.PNG" />
 
 
 
