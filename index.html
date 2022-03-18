@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -15,7 +14,7 @@
         <nav class="nav-bar">
             <ul>
                 <li>
-                    <!-- fixed broken link by linking to id 'search-engine-optimization' created below on line 33 -->
+                    <!-- fixed broken link by linking to id 'search-engine-optimization' created below on line 35 -->
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
                 </li>
                 <li>
@@ -27,8 +26,8 @@
             </ul>
         </nav>
     </header>
-    <!-- changed div to figure For Accessibility Reason (referred to as F.A.R from here on out) -->
-    <figure class="hero"></figure>
+    <!-- changed div to figure For Accessibility Reason (referred to as F.A.R from here on out). Used ARIA to add description for image file that is linked from the CSS file -->
+    <figure class="hero" role="img" aria-label="People in a hip conference room, looking at documents"></figure>
     <!-- changed div to main F.A.R -->
     <main class="content">
         <!-- changed div to section F.A.R. Created class 'card' to consolidate SEO, ORM and SMM classes in the following three sections to one class for CSS efficiency. Added alt descriptions for every each section image  -->
@@ -54,35 +53,37 @@
             </p>
         </section>
     </main>
-    <div class="benefits">
-        <div class="benefit-lead">
+    <!-- Changed div classes to semantic classes aside and section F.A.R. Added alt descriptions for all images in this aside. Consolidated benefit-lead, benefit-brand, and benefit-cost into one class, benefit-tab  -->
+    <aside class="benefits">
+        <section class="benefit-tab">
             <h3>Lead Generation</h3>
-            <img src="./assets/images/lead-generation.png" />
+            <img src="./assets/images/lead-generation.png" alt="icon of a gear going into a funnel and coming out as money"/>
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
-        </div>
-        <div class="benefit-brand">
+        </section>
+        <section class="benefit-tab">
             <h3>Brand Awareness</h3>
-            <img src="./assets/images/brand-awareness.png" />
+            <img src="./assets/images/brand-awareness.png" alt="icon of a man with a lightbulb for a head" />
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
-        </div>
-        <div class="benefit-cost">
+        </section>
+        <section class="benefit-tab">
             <h3>Cost Management</h3>
-            <img src="./assets/images/cost-management.png" />
+            <img src="./assets/images/cost-management.png" alt="gears and coins"/>
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
-        </div>
-    </div>
-    <div class="footer">
+        </section>
+    </aside>
+    <!-- changed footer F.A.R. Deleted unnecesary "footer" class -->
+    <footer class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
-    </div>
+    </footer>
 </body>
 
 </html>
